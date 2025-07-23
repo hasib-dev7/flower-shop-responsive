@@ -5,5 +5,70 @@
 	margin: 0;
 	font-family: "Noto Serif", serif;
 }
- /* font-family: "Noto Serif", serif; */
-   /* font-family: "Inter", sans-serif; */
+:root {
+	--primary-color: #000000;
+}
+/* font-family: "Noto Serif", serif; */
+/* font-family: "Inter", sans-serif; */
+body {
+	border: 1px solid red;
+}
+/* content layout */
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	border: 1px solid black;
+}
+.content-area {
+	max-width: 1140px;
+	margin: 0 auto;
+	border: 1px solid palegreen;
+}
+/* nav section */
+.nav {
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+.nav-logo {
+	max-width: 80%;
+	max-height: 80%;
+}
+.nav-right {
+	display: flex;
+	align-items: center;
+	gap: 45px;
+}
+.nav-link ul {
+	display: flex;
+	gap: 45px;
+	align-items: center;
+}
+.nav-link ul li {
+	list-style: none;
+}
+.nav-link ul li a {
+	text-decoration: none;
+}
+.nav-link-home {
+	color: #252432;
+	font-weight: 700;
+	font-family: "Inter", sans-serif;
+}
+.nav-link-shop,
+.nav-link-about {
+	color: #8987a1;
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+}
+.nav-cart {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.nav-cart > p {
+	font-size: 18px;
+	color: var(--primary-color);
+	font-weight: 400;
+	font-family: "Inter", sans-serif;
+}
