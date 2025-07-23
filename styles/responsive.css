@@ -9,12 +9,12 @@
 		margin: 0 auto;
 		padding: 0 10px;
 	}
-    /*  */
+	/*  */
 	/* shared style */
 	.paragraph-text {
 		font-size: 16px;
 	}
-    /*  */
+	/*  */
 	/* nav section */
 	.nav {
 		margin-top: 20px;
@@ -40,6 +40,37 @@
 	.banner-title-orange {
 		font-size: 35px;
 	}
+	/* plants section */
+	.plants-section {
+		margin-top: 80px;
+	}
+	.plants-section-content {
+		width: 100%;
+	}
+	.plants-heading-title {
+		margin-bottom: 16px;
+	}
+	.plants-card-content {
+		margin-top: 40px;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 20px;
+		column-gap: 15px;
+	}
+	.plants-card-title,
+	.plants-card-price {
+		font-size: 18px;
+	}
+	.plants-card-title {
+		margin-top: 20px;
+	}
+	.plants-card-price {
+		margin-top: 15px;
+	}
+	.plants-card-btn {
+		padding: 16px 0;
+		font-weight: 400;
+		margin-top: 20px;
+	}
 }
 /* mobile divice 576px*/
 @media screen and (min-width: 375px) and (max-width: 576px) {
@@ -53,11 +84,11 @@
 		padding: 0 10px;
 	}
 	/*  */
-    /* shared style */
+	/* shared style */
 	.paragraph-text {
 		font-size: 18px;
 	}
-    /*  */
+	/*  */
 	/* nav section */
 	.nav {
 		margin-top: 20px;
@@ -72,7 +103,7 @@
 	.nav-cart > p {
 		font-size: 18px;
 	}
-    /* banner section */
+	/* banner section */
 	.banner {
 		margin-top: 80px;
 		grid-template-columns: repeat(1, 1fr);
@@ -81,5 +112,36 @@
 	.banner-title-black,
 	.banner-title-orange {
 		font-size: 40px;
+	}
+	/* plants section */
+	.plants-section {
+		margin-top: 80px;
+	}
+	.plants-section-content {
+		width: 100%;
+	}
+	.plants-heading-title {
+		margin-bottom: 16px;
+	}
+	.plants-card-content {
+		margin-top: 40px;
+		grid-template-columns: repeat(2, 1fr);
+		row-gap: 20px;
+		column-gap: 15px;
+	}
+	.plants-card-title,
+	.plants-card-price {
+		font-size: 18px;
+	}
+	.plants-card-title {
+		margin-top: 20px;
+	}
+	.plants-card-price {
+		margin-top: 15px;
+	}
+	.plants-card-btn {
+		padding: 16px 0;
+		font-weight: 500;
+		margin-top: 20px;
 	}
 }

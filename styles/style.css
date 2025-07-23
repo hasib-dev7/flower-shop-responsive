@@ -9,6 +9,8 @@
 	--primary-color: #000000;
 	--secondary-color: #e95a08;
 	--paragraph-text: rgba(0, 0, 0, 0.5);
+	--card-text: #111111;
+	--accent-text: #ffffff;
 }
 /* font-family: "Noto Serif", serif; */
 /* font-family: "Inter", sans-serif; */
@@ -38,12 +40,27 @@ body {
 	font-family: "Noto Serif", serif;
 	font-weight: 700;
 }
+/* shared section heading title */
+.section-title-black {
+	color: var(--primary-color);
+	font-family: "Noto Serif", serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+.section-title-orange {
+	color: var(--secondary-color);
+	font-family: "Noto Serif", serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+}
+/* shared paragraph-text */
 .paragraph-text {
 	color: var(--paragraph-text);
-    font-size: 22px;
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
+	font-size: 22px;
+	font-family: "Inter", sans-serif;
+	font-weight: 400;
 }
+/*  */
 /* nav section */
 .nav {
 	margin-top: 30px;
@@ -93,18 +110,68 @@ body {
 	font-family: "Inter", sans-serif;
 }
 /* banner section */
-.banner{
-    margin-top: 100px;
-   display: grid;
-   grid-template-columns: repeat(2,1fr);
-    align-items: end;
+.banner {
+	margin-top: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: end;
 }
 
 .banner-title-black,
 .banner-title-orange {
 	font-size: 55px;
 }
-.banner-image{
-    max-width: 100%;
-    max-height: 100%;
+.banner-image {
+	max-width: 100%;
+	max-height: 100%;
+}
+/* plants section */
+.plants-section {
+	margin-top: 110px;
+}
+.plants-section-content {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+.plants-heading-title {
+	margin-bottom: 20px;
+}
+.plants-card-content {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	row-gap: 30px;
+	column-gap: 20px;
+}
+.plants-card-image {
+	width: 100%;
+	height: 100%;
+}
+.plants-card-title,
+.plants-card-price {
+	color: var(--card-text);
+	font-size: 22px;
+	font-family: "Inter", sans-serif;
+	text-align: center;
+}
+.plants-card-title {
+	font-weight: 500;
+	margin-top: 30px;
+}
+.plants-card-price {
+	font-weight: 700;
+	margin-top: 20px;
+}
+.plants-card-btn {
+	width: 100%;
+	background-color: var(--secondary-color);
+	color: var(--accent-text);
+	padding: 20px 0;
+	font-size: 16px;
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	text-align: center;
+	border: none;
+    margin-top: 30px;
 }
