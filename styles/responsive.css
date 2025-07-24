@@ -87,4 +87,35 @@
 	.plants-lover-list-item > li {
 		margin-top: 18px;
 	}
+	/* latest-section */
+	.latest-section {
+		margin-top: 80px;
+	}
+	.latest-section-content {
+		width: 90%;
+		margin: 0 auto;
+	}
+	.latest-section-content > p {
+		margin-top: 16px;
+	}
+	/* latest-section-img */
+	.latest-section-img {
+		margin-top: 60px;
+		grid-template-columns: 1fr;
+		gap: 20px;
+	}
+	.latest-img-left {
+		gap: 20px;
+	}
+	.latest-img-right-title {
+		font-size: 24px;
+	}
+	.latest-img-right-link a {
+		font-size: 18px;
+	}
+	.latest-img-righ {
+		padding: 65px 0;
+	}
 }
+/* font-family: "Noto Serif", serif; */
+/* font-family: "Inter", sans-serif; */
