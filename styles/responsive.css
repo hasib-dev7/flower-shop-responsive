@@ -116,6 +116,32 @@
 	.latest-img-righ {
 		padding: 65px 0;
 	}
+	/* join section */
+	.join-section {
+		margin-top: 70px;
+	}
+	.join-section-content {
+		padding-top: 110px;
+		padding-bottom: 64px;
+	}
+	.join-section-title {
+		font-size: 20px;
+	}
+	.join-section-inp-btn {
+		margin-top: 16px;
+	}
+	.join-section-inp-btn input[type] {
+		padding-left: 15px;
+		width: 55%;
+	}
+	.join-section-inp-btn input[placeholder] {
+		font-size: 14px;
+	}
+	.join-section-inp-btn button {
+		padding: 12px 20px;
+		font-size: 14px;
+		font-weight: 400;
+	}
 }
 /* font-family: "Noto Serif", serif; */
 /* font-family: "Inter", sans-serif; */
