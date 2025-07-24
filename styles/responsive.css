@@ -142,6 +142,29 @@
 		font-size: 14px;
 		font-weight: 400;
 	}
+	/* footer section */
+	.footer-section {
+		margin-top: 50px;
+		margin-bottom: 50px;
+		/*  */
+		grid-template-columns:1fr;
+		gap: 20px;
+	}
+
+	.footer-content p {
+		width:90%;
+		margin-top: 16px;
+	}
+	.footer-list-item-one ul,
+	.footer-list-item-two ul {
+		gap: 25px;
+	}
+	.footer-link {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 24px;
+	}
 }
 /* font-family: "Noto Serif", serif; */
 /* font-family: "Inter", sans-serif; */
