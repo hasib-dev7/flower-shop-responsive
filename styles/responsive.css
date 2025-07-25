@@ -51,9 +51,12 @@
 	.banner-title-orange {
 		font-size: 40px;
 	}
+	.banner-paragraph-text{
+		margin-top: 16px;
+	}
 	/* plants section */
 	.plants-section {
-		margin-top: 80px;
+		margin-top: 70px;
 	}
 	.plants-section-content {
 		width: 100%;
